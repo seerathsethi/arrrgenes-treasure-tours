@@ -56,7 +56,12 @@ body {
   text-decoration: none;
 }
 
+.nav a:focus {
+  outline: 3px solid #fff;
+}
+
 .banner {
+  background-color: brown;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -68,6 +73,10 @@ body {
 .banner img {
   grid-area: banner;
   width: 100%;
+}
+
+.banner a:focus {
+  outline: 3px solid #fff;
 }
 
 .banner div {
